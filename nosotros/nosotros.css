@@ -1,0 +1,114 @@
+body{
+    background: #f0b4b4;
+    padding: 0;
+    margin: 0;
+}
+
+/* estilos globales*/
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*encabezado*/
+
+header {
+    background:  #ab6868;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 40px;
+    border-bottom: 5px solid #ffffff;
+    font-size: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+/*para lema*/
+    header #lema{
+        float: right;
+    }
+
+    header #lema h1{
+        margin: 0;
+    }
+
+/*propiedades de resaltar CEM RAMON ROSA*/
+
+   header .resaltado, header .actual a {
+    color: #000000;
+    font-weight: bold;
+   }
+
+   .logo img {
+    width: 120px;
+    height: 100px;
+   }
+
+/*propiedades generales del contenido*/
+   .contenido{
+    max-width: 100%;
+    padding-top: 10px;
+    margin: 15px;
+   }
+
+/*propiedades del titulo "vision" */
+   .titulo h3{
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    font-family: "Algerian";
+    font-size: 40px;
+   }
+
+/*propiedades de la historia*/ 
+.part1 p{
+    color: #020202;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.part2 p{
+    color: #000000;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.part3 p{
+    color: #000000;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*propiedades de las listas*/ 
+.listas{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Bodoni MT Poster Compressed";
+}
+
+.listas2{
+    color:#000000;
+    font-size: 20px;
+    font-family: "Bodoni MT Poster Compressed";
+}
+
+/*propiedades del autor*/ 
+.autor h3{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+footer{
+
+    background-color: #dfc5c5;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 15PX;
+    font-family: Arial Rounded MT Bold;
+
+}
+

@@ -1,0 +1,141 @@
+/*Estilos base (pantallas grandes)*/
+
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0b4b4;
+} 
+
+.menu_bar{
+    display: none;
+}
+
+
+header{
+    background-color: #ab6868;
+    color: #030303;
+    text-align: center;
+    font-family: Algeria;
+    width: 100%;
+}
+
+header nav{
+    background-color: #825757;
+    z-index: 1000;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}  
+
+nav ul a:hover{
+    background-color:#b97171;
+}
+
+header nav ul li a{
+    color:#ffffff;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav ul li a span{
+    margin-right: 10px;
+}
+
+header nav ul li:hover .botoncitos{
+    display: block;
+}
+
+header nav ul li .botoncitos{
+    display: none;
+    background-color: #ce8c8c;
+    position: absolute;
+    width: 150%;
+    z-index: 1000;
+}
+
+header nav ul li .botoncitos li{
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #a4b9c7 rgb(255,255,5);
+}
+
+header nav ul li .botoncitos li a{
+    display: block;
+}
+
+header nav ul li.botoncitos li a span{
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+head nav ul li .caret{
+position: relative;
+top: 3px;
+margin-left: 10px;
+margin-right: 0;
+}
+
+
+
+main{
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section{
+    background-color: #edd5d5 ;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+section p{
+    text-align: justify;
+    font-family: arial,sans-serif;
+}
+
+section img{
+    display: block; /*permiten central una imagen*/
+    margin: auto; /*permite central una imagen*/
+    height:200px ;
+    width: 260px;
+}
+
+.nav  {
+   width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color:#2280ce;
+}
+
+
+footer{
+    background-color: #dfc5c5;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 15PX;
+    font-family: Algerian;
+
+}
+
+
+
+

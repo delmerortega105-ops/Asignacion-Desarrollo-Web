@@ -1,0 +1,114 @@
+body{
+    background: #f0b4b4;
+    padding: 0;
+    margin: 0;
+}
+
+/* estilos globales*/
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+/*encabezado*/
+
+header {
+    background: #ab6868;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 40px;
+    border-bottom: 5px solid #ffffff;
+    font-size: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+/*para lema*/
+    header #lema{
+        float: right;
+    }
+
+    header #lema h1{
+        margin: 0;
+    }
+
+/*propiedades de resaltar CEM RAMON ROSA*/
+
+   header .resaltado, header .actual a {
+    color: #000000;
+    font-weight: bold;
+   }
+
+   .logo img {
+    width: 120px;
+    height: 100px;
+    
+   }
+
+.contenedor  {
+display: flex;
+padding: 1em;
+ }
+
+.contenido {
+flex: 2;
+padding: 1em;
+ }
+
+.contenido h1 {
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 20px;
+}
+
+.contenido ul li  {
+text-align: justify;
+font-size: 15px;
+
+
+}
+
+
+.lateral {
+flex: 1;
+padding: 1em;
+background-color: #dfc5c5;
+}
+
+
+.lateral, .imagenes, img  {
+
+display: block;
+margin: auto;
+padding-top: 10px;
+border-radius: 10px;
+
+
+
+    }
+
+
+/*propiedades generales del contenido*/
+   .contenido{
+    max-width: 100%;
+    padding-top: 10px;
+    margin: 15px;
+   }
+
+
+
+
+footer{
+
+    background-color: #dfc5c5;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 15PX;
+    font-family: Arial Rounded MT Bold;
+
+}
+

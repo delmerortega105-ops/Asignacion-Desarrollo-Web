@@ -1,0 +1,150 @@
+body{
+    background: #f0b4b4;
+    padding: 0;
+    margin: 0;
+}
+
+/* estilos globales*/
+.contenedor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*encabezado*/
+
+header {
+    background:  #ab6868;
+    color:  #ffffff;
+    padding-top: 30px;
+    min-height: 40px;
+    border-bottom: 5px solid #ffffff;
+    font-size: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+/*para lema*/
+    header #lema{
+        float: right;
+    }
+
+    header #lema h1{
+        margin: 0;
+    }
+
+/*propiedades de resaltar CEM RAMON ROSA*/
+
+   header .resaltado, header .actual a {
+    color: #000000;
+    font-weight: bold;
+   }
+
+   .logo img {
+    width: 120px;
+    height: 100px;
+   }
+
+/*propiedades generales del contenido*/
+   .contenido{
+    max-width: 100%;
+    padding-top: 10px;
+    margin: 15px;
+   }
+
+/*propiedades del titulo "vision" */
+   .titulo h3{
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    font-family: "Algerian";
+    font-size: 40px;
+   }
+
+   .social h1{
+    font-family: gabriola;
+    text-align: center;
+    font-weight: bold;/*letra negrita*/;
+    color:  #030303;
+   }
+
+   .sociales{
+    text-align: center;
+    padding-top: 40px; /*margen superior*/
+    padding-bottom: 40px; /*margen inferior*/
+   }
+
+   .sociales li{
+    display: inline-block; /*posicion horizontal de las imagenes*/
+    padding: 40px;
+   }
+
+   .ubicacion{
+    text-align: center;
+    padding-top: 40px;/*margen superior*/
+    padding-bottom: 40px;/*margen inferior*/
+   }
+
+   .ubicacion p{
+    font-family: gabriola;
+    text-align: center;
+    font-weight: bold; /*letra negrita*/
+    color: #000000;
+    font-size: 25px;
+   }
+
+   .sociales li h4{
+    color: #000000 ;
+   }
+
+/*propiedades de la historia*/ 
+.part1 p{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.part2 p{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.part3 p{
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/*propiedades de las listas*/ 
+.listas{
+    color: #000000;
+    font-size: 20px;
+    font-family: "Bodoni MT Poster Compressed";
+}
+
+.listas2{
+    color:#000000;
+    font-size: 20px;
+    font-family: "Bodoni MT Poster Compressed";
+}
+
+/*propiedades del autor*/ 
+.autor h3{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+footer{
+
+    background-color: #dfc5c5;
+    color: #020202;
+    text-align: center;
+    padding: 10px;
+    font-size: 15PX;
+    font-family: Arial Rounded MT Bold;
+
+}
+
